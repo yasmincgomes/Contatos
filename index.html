@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="contato.css">
+
+</head>
+<body>
+   <fieldset>
+    <legend>Contato</legend>
+    <table cellspacing="10">
+
+        <tr>
+            <!-- nome -->
+            <td>
+                <label for="nome">Nome:</label>
+            </td>
+            <td align="left">
+                <input type="text" name="nome" required autofocus> 
+            </td>
+
+            <!-- sobrenome -->
+            <td>
+                <label for="sobrenome">Sobrenome:</label>
+            </td>
+            <td align="left">
+                <input type="text" name="sobrenome" required>
+            </td>
+        </tr>
+
+        <!-- telefone -->
+        <tr>
+            <td>
+                <label for="telefone">Telefone:</label>
+            </td>
+            <td align="left">
+                <input type="text" name="telefone" required>
+            </td>
+        </tr>
+        
+        <!-- email -->
+        <tr>
+            <td>
+                <label for="email">Email:</label>
+            </td>
+            <td align="left">
+                <input type="email" name="email" required>
+            </td>
+        </tr>
+
+        <!-- caixa de mensagem -->
+        <tr>
+            <td>
+                <label for="mensagem">Mensagem:</label>
+            </td>
+            <td align="left" colspan="3">
+                <textarea name="mensagem" cols="50" rows="5" required></textarea>
+            </td>
+            <td>
+                <input type="submit" value="Enviar">
+            </td>
+        </tr>
+
+    </table>
+   </fieldset> 
+</body>
+</html>
